@@ -1,0 +1,46 @@
+.main-container {
+  width: 25.5rem;
+  height: 420px;
+  max-width: 90%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-image: linear-gradient(
+    0.2turn,
+    rgb(87, 228, 238),
+    rgb(235, 227, 184),
+    rgb(230, 123, 23)
+  );
+}
+.header {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(
+    0.35turn,
+    rgb(87, 228, 238),
+    rgb(235, 227, 184),
+    rgb(230, 123, 23)
+  );
+}
+
+.header h2 {
+  font-weight: 900;
+  font-size: 50px;
+  color: gold;
+  text-shadow: 5px 3px 0 rgba(0, 0, 0, 0.85);
+  text-align: center;
+  padding-top: 10px;
+  transform: rotateZ(-5deg) translateY(-2rem) translateX(-1rem);
+}
+
+.ticket-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.selected-button {
+  border-color: red;
+}

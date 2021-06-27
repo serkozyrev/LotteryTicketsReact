@@ -1,0 +1,24 @@
+.money-button {
+  background: #ac0e77;
+  border-color: #ac0e;
+  margin: 2px;
+  width: 40px;
+  height: 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.money-button:disabled,
+.money-button:focus:disabled,
+.money-button:hover:disabled,
+.money-button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.money-value {
+  margin-left: 30px;
+}

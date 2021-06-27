@@ -1,0 +1,20 @@
+.ticket-cash {
+  background: #ac0e77;
+  border-color: #ac0e;
+  margin: 2px;
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ticket-cash:disabled,
+.ticket-cash:focus:disabled,
+.ticket-cash:hover:disabled,
+.ticket-cash:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

@@ -1,0 +1,19 @@
+.ticket-button {
+  width: 35px;
+  background: rgb(87, 228, 238);
+  border-color: rgb(235, 227, 184);
+  margin: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ticket-numbers {
+  display: flex;
+  flex-flow: row wrap;
+  width: 250px;
+  margin-left: 30px;
+  background-image: linear-gradient(
+    0.15turn,
+    rgb(235, 227, 184),
+    rgb(230, 123, 23)
+  );
+}
